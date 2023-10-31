@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Vite + React_files/css2" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="D:/PORTFOLIO/WebDeveloper/Jewellery-website/version6(Stripe+GlobqlCqrt)/frontend/src/index.css">/*
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-\[85\%\] {
+  inset: 85%;
+}
+.right-0 {
+  right: 0px;
+}
+.right-\[3\%\] {
+  right: 3%;
+}
+.top-0 {
+  top: 0px;
+}
+.top-\[15\%\] {
+  top: 15%;
+}
+.z-10 {
+  z-index: 10;
+}
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.ml-16 {
+  margin-left: 4rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
+}
+.ml-36 {
+  margin-left: 9rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
+.ml-7 {
+  margin-left: 1.75rem;
+}
+.ml-8 {
+  margin-left: 2rem;
+}
+.ml-\[1\%\] {
+  margin-left: 1%;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-64 {
+  height: 16rem;
+}
+.h-\[10\%\] {
+  height: 10%;
+}
+.h-\[100\%\] {
+  height: 100%;
+}
+.h-\[120\%\] {
+  height: 120%;
+}
+.h-\[15\%\] {
+  height: 15%;
+}
+.h-\[20\%\] {
+  height: 20%;
+}
+.h-\[23\%\] {
+  height: 23%;
+}
+.h-\[25\%\] {
+  height: 25%;
+}
+.h-\[32\%\] {
+  height: 32%;
+}
+.h-\[40\%\] {
+  height: 40%;
+}
+.h-\[5\%\] {
+  height: 5%;
+}
+.h-\[60\%\] {
+  height: 60%;
+}
+.h-\[68\%\] {
+  height: 68%;
+}
+.h-\[7\%\] {
+  height: 7%;
+}
+.h-\[80\%\] {
+  height: 80%;
+}
+.h-\[85\%\] {
+  height: 85%;
+}
+.h-\[90\%\] {
+  height: 90%;
+}
+.h-\[98\%\] {
+  height: 98%;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[15\%\] {
+  width: 15%;
+}
+.w-\[30\%\] {
+  width: 30%;
+}
+.w-\[33\%\] {
+  width: 33%;
+}
+.w-\[34\%\] {
+  width: 34%;
+}
+.w-\[35\%\] {
+  width: 35%;
+}
+.w-\[36\%\] {
+  width: 36%;
+}
+.w-\[44\%\] {
+  width: 44%;
+}
+.w-\[65\%\] {
+  width: 65%;
+}
+.w-\[70\%\] {
+  width: 70%;
+}
+.w-\[70\.5\%\] {
+  width: 70.5%;
+}
+.w-\[80\%\] {
+  width: 80%;
+}
+.w-\[85\%\] {
+  width: 85%;
+}
+.w-\[90\%\] {
+  width: 90%;
+}
+.w-\[95\%\] {
+  width: 95%;
+}
+.w-full {
+  width: 100%;
+}
+.w-screen {
+  width: 100vw;
+}
+.translate-x-full {
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.content-center {
+  align-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-none {
+  border-radius: 0px;
+}
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-l-2 {
+  border-left-width: 2px;
+}
+.border-t-2 {
+  border-top-width: 2px;
+}
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.p-0 {
+  padding: 0px;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
+.pl-2 {
+  padding-left: 0.5rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
+}
+.pl-\[2\%\] {
+  padding-left: 2%;
+}
+.pr-2 {
+  padding-right: 0.5rem;
+}
+.pr-5 {
+  padding-right: 1.25rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
+.pt-7 {
+  padding-top: 1.75rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.font-Julius {
+  font-family: Julius Sans One;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.hover\:border-black:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.hover\:border-diamond:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(112 209 244 / var(--tw-border-opacity));
+}
+
+.hover\:bg-facebook:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 89 152 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-whatsapp:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 128 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.hover\:from-purple-700:hover {
+  --tw-gradient-from: #7e22ce var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(126 34 206 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.hover\:to-yellow-400:hover {
+  --tw-gradient-to: #facc15 var(--tw-gradient-to-position);
+}
+
+.hover\:text-3xl:hover {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 0) {
+
+  .xs\:mb-\[4\%\] {
+    margin-bottom: 4%;
+  }
+
+  .xs\:ml-\[45\%\] {
+    margin-left: 45%;
+  }
+
+  .xs\:ml-\[48\%\] {
+    margin-left: 48%;
+  }
+
+  .xs\:ml-\[5\%\] {
+    margin-left: 5%;
+  }
+
+  .xs\:mt-\[2\%\] {
+    margin-top: 2%;
+  }
+
+  .xs\:mt-\[4\%\] {
+    margin-top: 4%;
+  }
+
+  .xs\:grid {
+    display: grid;
+  }
+
+  .xs\:hidden {
+    display: none;
+  }
+
+  .xs\:h-\[30\%\] {
+    height: 30%;
+  }
+
+  .xs\:h-\[36\%\] {
+    height: 36%;
+  }
+
+  .xs\:h-\[40\%\] {
+    height: 40%;
+  }
+
+  .xs\:h-\[5\%\] {
+    height: 5%;
+  }
+
+  .xs\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .xs\:h-\[90\%\] {
+    height: 90%;
+  }
+
+  .xs\:h-\[95\%\] {
+    height: 95%;
+  }
+
+  .xs\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .xs\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xs\:flex-col {
+    flex-direction: column;
+  }
+
+  .xs\:gap-8 {
+    gap: 2rem;
+  }
+
+  .xs\:border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .xs\:bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  }
+
+  .xs\:p-\[2\%\] {
+    padding: 2%;
+  }
+
+  .xs\:p-\[3\%\] {
+    padding: 3%;
+  }
+
+  .xs\:p-\[4\%\] {
+    padding: 4%;
+  }
+
+  .xs\:pb-\[2\%\] {
+    padding-bottom: 2%;
+  }
+
+  .xs\:pb-\[5\%\] {
+    padding-bottom: 5%;
+  }
+
+  .xs\:pl-\[8\%\] {
+    padding-left: 8%;
+  }
+
+  .xs\:pt-\[10\%\] {
+    padding-top: 10%;
+  }
+
+  .xs\:pt-\[2\%\] {
+    padding-top: 2%;
+  }
+
+  .xs\:pt-\[3\%\] {
+    padding-top: 3%;
+  }
+
+  .xs\:pt-\[4\%\] {
+    padding-top: 4%;
+  }
+
+  .xs\:pt-\[5\%\] {
+    padding-top: 5%;
+  }
+
+  .xs\:text-center {
+    text-align: center;
+  }
+
+  .xs\:text-right {
+    text-align: right;
+  }
+
+  .xs\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xs\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xs\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xs\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .sm\:bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 760px) {
+
+  .md\:top-\[18\%\] {
+    top: 18%;
+  }
+
+  .md\:-mt-\[1\%\] {
+    margin-top: -1%;
+  }
+
+  .md\:ml-\[47\%\] {
+    margin-left: 47%;
+  }
+
+  .md\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .md\:h-\[110\%\] {
+    height: 110%;
+  }
+
+  .md\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .md\:bg-green-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  }
+
+  .md\:p-\[6\%\] {
+    padding: 6%;
+  }
+
+  .md\:pb-\[5\%\] {
+    padding-bottom: 5%;
+  }
+
+  .md\:pl-\[10\%\] {
+    padding-left: 10%;
+  }
+
+  .md\:pt-\[5\%\] {
+    padding-top: 5%;
+  }
+
+  .md\:pt-\[7\%\] {
+    padding-top: 7%;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 860px) {
+
+  .mdlg\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mdlg\:h-\[110\%\] {
+    height: 110%;
+  }
+
+  .mdlg\:pt-\[5\%\] {
+    padding-top: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .lg\:right-\[1\%\] {
+    right: 1%;
+  }
+
+  .lg\:ml-\[2\%\] {
+    margin-left: 2%;
+  }
+
+  .lg\:ml-\[38\%\] {
+    margin-left: 38%;
+  }
+
+  .lg\:mt-\[1\%\] {
+    margin-top: 1%;
+  }
+
+  .lg\:mt-\[10\%\] {
+    margin-top: 10%;
+  }
+
+  .lg\:mt-\[15\%\] {
+    margin-top: 15%;
+  }
+
+  .lg\:mt-\[2\%\] {
+    margin-top: 2%;
+  }
+
+  .lg\:mt-\[5\%\] {
+    margin-top: 5%;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .lg\:h-\[35\%\] {
+    height: 35%;
+  }
+
+  .lg\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .lg\:h-\[70\%\] {
+    height: 70%;
+  }
+
+  .lg\:h-\[78\%\] {
+    height: 78%;
+  }
+
+  .lg\:w-\[110\%\] {
+    width: 110%;
+  }
+
+  .lg\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:border-none {
+    border-style: none;
+  }
+
+  .lg\:bg-slate-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
+  }
+
+  .lg\:p-\[2\%\] {
+    padding: 2%;
+  }
+
+  .lg\:pb-\[2\%\] {
+    padding-bottom: 2%;
+  }
+
+  .lg\:pb-\[4\%\] {
+    padding-bottom: 4%;
+  }
+
+  .lg\:pl-\[10\%\] {
+    padding-left: 10%;
+  }
+
+  .lg\:pl-\[3\%\] {
+    padding-left: 3%;
+  }
+
+  .lg\:pr-\[3\%\] {
+    padding-right: 3%;
+  }
+
+  .lg\:pr-\[5\%\] {
+    padding-right: 5%;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .lg\:pt-\[1\.9\%\] {
+    padding-top: 1.9%;
+  }
+
+  .lg\:pt-\[10\%\] {
+    padding-top: 10%;
+  }
+
+  .lg\:pt-\[3\%\] {
+    padding-top: 3%;
+  }
+
+  .lg\:text-center {
+    text-align: center;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .xl\:right-\[3\%\] {
+    right: 3%;
+  }
+
+  .xl\:top-\[15\%\] {
+    top: 15%;
+  }
+
+  .xl\:ml-\[42\%\] {
+    margin-left: 42%;
+  }
+
+  .xl\:mt-\[10\%\] {
+    margin-top: 10%;
+  }
+
+  .xl\:mt-\[2\%\] {
+    margin-top: 2%;
+  }
+
+  .xl\:mt-\[5\%\] {
+    margin-top: 5%;
+  }
+
+  .xl\:h-\[110\%\] {
+    height: 110%;
+  }
+
+  .xl\:h-\[40\%\] {
+    height: 40%;
+  }
+
+  .xl\:h-\[70\%\] {
+    height: 70%;
+  }
+
+  .xl\:bg-purple-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+  }
+
+  .xl\:p-\[0\.5\%\] {
+    padding: 0.5%;
+  }
+
+  .xl\:p-\[1\%\] {
+    padding: 1%;
+  }
+
+  .xl\:pt-\[2\%\] {
+    padding-top: 2%;
+  }
+
+  .xl\:pt-\[5\%\] {
+    padding-top: 5%;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+</style></head>
+  <body>
+    <div id="root"><div><div class="w-full font-Julius text-white bg-black border-b-2 border-white"><div class="w-full xs:text-5xl xl:text-6xl xl:p-[1%] text-center xs:p-[2%] border-b-2"><a href="http://localhost:5173/" class="text-white hover:text-white">Manuella</a></div><div class="w-full flex xs:flex-col xs:text-center xs:pt-[3%] lg:pt-0 lg:pl-[3%] lg:pr-[3%] lg:flex-row lg:justify-between xl:text-3xl"><a class="text-white hover:text-white xs:border-b-2 border-white xs:pb-[2%] lg:border-none lg:pt-[1.9%]" href="http://localhost:5173/">New Arrivals</a><a class="text-white hover:text-white xs:border-b-2 border-white xs:p-[2%] lg:border-none" href="http://localhost:5173/earringSearch">Earrings</a><a class="text-white hover:text-white xs:border-b-2 border-white xs:p-[2%] lg:border-none" href="http://localhost:5173/braceletSearch">Braceletes</a><a class="text-white hover:text-white xs:border-b-2 border-white xs:p-[2%] lg:border-none" href="http://localhost:5173/necklaceSearch">Necklaces</a><a class="text-white hover:text-white xs:border-b-2 border-white xs:p-[2%] lg:border-none" href="http://localhost:5173/ringSearch">Rings</a><a class="text-white hover:text-white xs:border-b-2 border-white xs:p-[2%] lg:border-none" href="http://localhost:5173/productSearch">Search</a><button class="bg-black hover:border-diamond" fdprocessedid="fuya1r"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="xs:ml-[48%]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg></button></div></div><div id="cartWindow" class="font-Julius w-[15%] fixed inset-[85%] z-10 mt-[10%] h-[100%] bg-white border-black border-2 top-0 right-0 transform translate-x-full transition-transform duration-700 "><div class="w-full h-[60%] border-b-2 border-black text-black overflow-auto text-center"></div><div class="w-full h-[40%]"><div class="w-full h-[15%] border-b-2 border-black"><button class="text-white bg-black w-full h-full text-sm rounded-none hover:border-black">Clear Cart</button></div><div class="w-full h-[85%]"><h1 class="text-black text-2xl mt-3 ml-3">Total : $0</h1><button class="w-[100%] h-[23%]  bg-black mt-1 text-white rounded-none text-center hover:border-black"><a href="http://localhost:5173/checkout" class="text-2xl -mt-1 text-white hover:text-white hover:text-3xl ">CheckOut</a></button></div></div></div><div class="w-screen h-screen bg-black overflow-x-hidden xs:bg-blue-500 sm:bg-red-500 md:bg-green-500 lg:bg-slate-500 xl:bg-purple-500"><div class="w-full font-Julius relative xs:h-[40%] md:h-[50%] lg:h-[78%]"><img class="w-full h-[100%]" src="./Vite + React_files/WhatsApp Image 2023-09-07 at 11.37.25 AM.jpeg" alt=""><div><h1 class="text-black absolute top-[15%] right-[3%] xs:text-right xs:text-4xl md:text-center md:text-5xl md:top-[18%] lg:text-7xl lg:right-[1%] xl:text-8xl xl:top-[15%] xl:right-[3%]">UNIQUENESS <br>IN EVERY <br>PIECE OF <br> JEWELLERY</h1></div></div><div class="w-full xs:h-[90%] font-Julius text-white bg-black lg:h-[70%]"><div class="text-center w-full h-[10%] xs:pt-[5%] lg:pt-[3%]"><h1 class="xs:text-3xl md:text-5xl">Our Latest Releases!</h1></div><div class="w-full xs:h-[90%] xs:grid xs:grid-cols-2 xs:gap-8 xs:p-[4%] xs:pl-[8%] md:p-[6%] md:pt-[7%] md:pl-[10%] lg:pb-[2%] lg:pl-[3%] lg:pr-[3%] lg:flex lg:flex-row"><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] bg-white rounded-lg lg:w-[110%] lg:h-[100%] xl:h-[110%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/springSilver.jpg" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Capture the Spirit of Spring with Our Radiant Silver Creations</p></div><div class="w-full xs:h-[50%] lg:mt-[15%] xl:mt-[10%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Spring Silver &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] bg-white rounded-lg lg:w-[110%] lg:h-[100%] xl:h-[110%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/pearl.avif" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Adorn yourself with the treasures of the sea, a gift from natures elegance</p></div><div class="w-full xs:h-[50%] lg:mt-[15%] xl:mt-[10%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Perfect Pearl &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] bg-white rounded-lg lg:w-[110%] lg:h-[100%] xl:h-[110%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/diamond.jpg" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Indulge in the divine allure of our Divine Diamonds Jewellery Colelction</p></div><div class="w-full xs:h-[50%] lg:mt-[15%] xl:mt-[10%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Divine Diamond &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] bg-white rounded-lg lg:w-[110%] lg:h-[100%] xl:h-[110%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/beaded.avif" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Experience the Soul of Craftsmanship in Our Beaded Beauty Collection</p></div><div class="w-full xs:h-[50%] lg:mt-[15%] xl:mt-[10%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Beaded Beauty &gt;</a></div></div></div></div></div><div class="w-full xs:h-[90%] md:h-[100%] mdlg:pt-[5%] mdlg:h-[110%] font-Julius text-white bg-black lg:h-[70%] xl:h-[70%]"><div class="text-center w-full h-[10%] xs:pt-[5%] lg:pt-[3%]"><h1 class="xs:text-3xl md:text-5xl">Shop by Category</h1></div><div class="w-full xs:h-[90%] xs:grid xs:grid-cols-2 xs:gap-8 xs:p-[4%] xs:pl-[8%] md:p-[6%] md:pt-[7%] md:pl-[10%] lg:pb-[2%] lg:pl-[3%] lg:pr-[3%] lg:flex lg:flex-row"><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] mdlg:h-[100%] bg-white rounded-lg lg:w-[110%] lg:h-[100%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/earring.avif" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Discover the art of fine jewelry with our earrings</p></div><div class="w-full xs:h-[50%] lg:mt-[10%] xl:mt-[5%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Earrings &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] mdlg:h-[100%] bg-white rounded-lg lg:w-[110%] lg:h-[100%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/bracelet.jpg" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Wrap your wrist in luxury with our premium bracelets</p></div><div class="w-full xs:h-[50%] lg:mt-[10%] xl:mt-[5%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Bracelets &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] mdlg:h-[100%] bg-white rounded-lg lg:w-[110%] lg:h-[100%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/necklace.jpg" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Shine Bright with our Dazzling Necklace Designs</p></div><div class="w-full xs:h-[50%] lg:mt-[10%] xl:mt-[5%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Necklaces &gt;</a></div></div></div><div class="xs:w-[90%] xs:h-[90%] md:h-[110%] mdlg:h-[100%] bg-white rounded-lg lg:w-[110%] lg:h-[100%]"><div class="w-full h-[60%] lg:h-[50%] rounded-t-lg"><img class="w-full h-full rounded-t-lg" src="./Vite + React_files/ring.avif" alt=""></div><div class="w-full h-[40%] lg:h-[50%]"><div class="w-full xs:h-[50%] lg:text-center lg:pt-[10%] lg:pl-[3%] lg:pr-[3%] xl:pt-[5%]"><p class="text-black xs:hidden lg:flex lg:text-sm xl:text-lg">Timeless design meets modern elegance in this exquisite ring</p></div><div class="w-full xs:h-[50%] lg:mt-[10%] xl:mt-[5%] text-center xs:text-base"><a href="http://localhost:5173/silverSearch" class="text-black hover:text-black md:text-2xl lg:text-xl xl:text-3xl">Rings &gt;</a></div></div></div></div></div><div class="w-full xs:h-[36%] font-Julius"><div class=" bg-black border-t-2 border-b-2 border-white text-center xs:pt-[4%] xs:p-[3%] xl:pt-[2%]"><h1 class="xs:text-4xl xl:text-6xl ">NewsLetter</h1><h1 class="xs:text-base xs:pt-[2%]">Subscribe to our Newsletter to stay informed of our latest deals and collections!</h1><input class=" xs:w-[90%] pl-[2%] xs:mt-[2%] xl:p-[0.5%] bg-white text-black " type="text" placeholder="xxx@gmail.com" fdprocessedid="cvv3ue"><button class="w-[90%] xs:mt-[4%] xs:mb-[4%] xl:mt-[2%] border-2 border-white bg-black hover:bg-white hover:text-black hover:border-black" fdprocessedid="0jb8m9">Subscribe</button></div></div><div class="w-full xs:h-[40%] lg:h-[35%] xl:h-[40%] md:pt-[5%] font-Julius bg-black"><div class="w-full xs:h-[5%]"><h1 class="text-white text-4xl text-center">Contact Us</h1></div><div class="w-full flex xs:flex-col justify-between xs:h-[95%] xs:pt-[10%] xs:pb-[5%] md:h-[100%] lg:flex-row md:pt-[5%] md:pb-[5%] lg:pb-[4%] lg:pr-[5%]"><button class="w-[90%] xs:ml-[5%] xs:h-[30%] lg:h-[100%] bg-white text-black hover:bg-whatsapp hover:text-white hover:border-black" fdprocessedid="nbcbub"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="xs:text-4xl xs:ml-[45%] md:ml-[47%] md:-mt-[1%] lg:text-6xl lg:ml-[38%] xl:ml-[42%]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></button><button class="w-[90%] xs:ml-[5%] xs:h-[30%] lg:h-[100%] bg-white text-black hover:bg-facebook hover:text-white hover:border-black" fdprocessedid="ycujf8"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="xs:text-4xl xs:ml-[45%] md:ml-[47%] md:-mt-[1%] lg:text-6xl lg:ml-[38%] xl:ml-[42%]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></button><button class="w-[90%] xs:ml-[5%] xs:h-[30%] lg:h-[100%] bg-white text-black hover:bg-gradient-to-b hover:from-purple-700 hover:to-yellow-400 hover:text-white hover:border-black" fdprocessedid="gs5cq"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="xs:text-4xl xs:ml-[45%] md:ml-[47%] md:-mt-[1%] lg:text-6xl lg:ml-[38%] xl:ml-[42%]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></button></div></div><div class="w-full bg-white font-Julius "><div class="w-full border-b-2 border-black flex flex-row text-black text-center lg:justify-between lg:p-[2%]"><div class="w-[33%] h-full hidden lg:flex lg:flex-col"><h1 class="lg:text-4xl">Useful Links</h1><h2 class="text-2xl lg:mt-[5%]">Delivery Information</h2><h2 class="text-2xl lg:mt-[2%]">International Shipping</h2><h2 class="text-2xl lg:mt-[2%]">Track Your Order</h2><h2 class="text-2xl lg:mt-[2%]">Returns</h2><h2 class="text-2xl lg:mt-[2%]">Exchange</h2><h2 class="text-2xl lg:mt-[2%]">Career</h2></div><div class="w-[100%] h-full text-center lg:w-[33%] lg:ml-[2%]"><h1 class="border-b-2 border-black xs:text-4xl xs:p-[2%] lg:border-none lg:p-0">Information</h1><h2 class="text-2xl xs:pt-[2%] lg:mt-[1%]">About Us</h2><h2 class="text-2xl xs:pt-[2%] lg:mt-[1%]">Offers</h2><h2 class="text-2xl xs:pt-[2%] lg:mt-[1%]">FAQ</h2><h2 class="text-2xl xs:pt-[2%] lg:mt-[1%]">Blog</h2><h2 class="text-2xl xs:pt-[2%] lg:mt-[1%]">📞343-XXX-XXXX</h2><h2 class="text-2xl xs:pt-[2%] xs:pb-[2%] lg:mt-[1%]">✉️manuella@gmail.com</h2></div><div class="w-[35%] h-full hidden lg:flex lg:flex-col lg:ml-[2%]"><div class="w-full h-[10%] "><h1 class="lg:text-4xl">Payment Options</h1></div><div class="w-full h-[80%] lg:pl-[10%] grid-cols-2 hidden lg:grid lg:grid-cols-2"><img src="./Vite + React_files/Visa.png" class="w-[90%] h-[90%]"><img src="./Vite + React_files/mastercard.jpg" class="w-[90%] h-[90%]"><img src="./Vite + React_files/americanexpress.png" class="w-[90%] h-[120%]"><img src="./Vite + React_files/stripe.png" class="w-[90%] h-[120%]"></div></div></div><div class="w-full h-[15%] xs:pt-[2%] xs:pb-[2%] bg-white text-black text-lg text-center"><h4>@Manuella Company Ltd 2023 all rights reserved</h4><h4>Terms and Conditions | Privacy Policy</h4></div></div></div></div></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+<div id="torrent-scanner-popup" style="display: none;"><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/css/custom.css"><div id="yf-bt-wrapper" class="free"><div class="header"><img class="sts-logo" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/ts-free-logo.png"><div class="search-content"><input id="search-input" class="search-input" type="search" placeholder="Start your search here..."><span id="search-btn" class="search-btn"></span></div></div><div class="container"><div class="main-container"><div id="torrent-data" class="torrent-content"><div class="t-table"><div class="t-header"><div class="t-name">Torrent search results</div></div><div id="checked-sites" class="checked-sites-section"><div class="left">Checked Sites</div><div class="right"><span id="sites-count" class="sites-count">0</span></div></div><div id="table-body" class="t-body"><div id="loading" class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="table-message-container" id="table-message"><p>No items to list <br> Use the search bar above for instant results</p></div></div></div></div><div class="tooltip"><p class="tooltip-text">To see search results, type here and hit `Enter`</p></div><div class="footer"><span><span id="numberScanned" class="numberScanned">No results</span></span></div><div class="upgradeProPanel"><div class="upgradeProPanelTitle">Try our Pro Versions to unlock:</div><div class="upgradeProPanelList"><div><p>Faster Results</p></div><div><p>Secure Torrenting</p></div><div><p>Unlimited Search Results with detailed torrent info</p></div><div><p>1-YR Subscription to CyberGhost VPN <span style="font-size:8px;">(PRO+VPN only)</span></p></div></div><a class="upgrade-to-pro-button-2" id="buy-pro-vpn" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">BUY PRO + VPN</a><a class="upgrade-to-pro-button-2" id="buy-pro" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">BUY PRO</a></div></div><div class="sync-container nav-se-container"><div class="nav-se-content"><img class="sync-icon nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-sync.svg"><div class="nav-se-title">One more step to go before you start torrenting!</div><p class="nav-se-text">This extension can sync results with BitTorrent and/or uTorrent for instant downloading.</p><p class="nav-se-text">To activate this feature, please click on the button below, and then on the Chrome message to activate the 'Messaging Permission'.</p><button class="sync-permission-btn nav-se-btn">Activate Messaging Permission</button></div><div class="nav-se-content display-none"><img class="sync-icon nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-sync.svg"><div class="nav-se-title">Syncing...</div><p class="nav-se-text">Please allow Messaging Permissions in the proceeding Chrome message.</p></div><div class="nav-se-content display-none"><img class="sync-icon nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-success.svg"><div class="nav-se-title">Sync Complete</div><p class="nav-se-text">You have successfully activated the “Messaging Permission” feature. All your search results will sync with BitTorrent and/or uTorrent.</p></div></div><div class="license-container nav-se-container"><div class="nav-se-content"><img class="nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-key2.svg"><div class="nav-se-title">Enter License Key</div><p class="nav-se-text">Enter your license key and click on the activate button to start using <span>µTorrent Web Pro.</span></p><input type="text" id="license-input-key" class="license-input-key" placeholder="Enter Key"><div class="license-spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><button id="license-activate-button" class="license-activate-button nav-se-btn">Activate</button><p>Don't have a license key? <a class="license-buy-link" target="_blank">Click here</a></p></div><div class="nav-se-content display-none"><img class="nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-success.svg"><div class="nav-se-title">Happy Torrenting!</div><p class="nav-se-text">You are now an active PRO user</p><p class="nav-se-text">Your key is valid until <span class="expiry-date"></span></p></div><div class="nav-se-content display-none"><img class="nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-alert.svg"><div class="nav-se-title">Your license key has expired</div><p class="nav-se-text">Looks like your license key has expired, to renew your PRO license key, please select a license type:</p><a class="upgrade-to-pro-button-2 buy-license-expiry-button" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">Buy Pro + VPN</a><a class="upgrade-to-pro-button-2 buy-license-expiry-button" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">Buy Pro</a><p class="nav-se-text">Already have a license key? <a class="link" id="show-license-panel">Click here</a></p></div><div class="nav-se-content display-none"><img class="nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-success.svg"><div class="nav-se-title">Pro User</div><p class="nav-se-text">Your key is valid until <span class="expiry-date"></span></p><p class="nav-se-text">Your License Key:</p><p class="nav-se-text"></p><p class="nav-se-text margin-top-50">Switch back to Torrent Scanner Free?</p><button class="activate-free-btn nav-se-btn">Revert to Free Version</button></div></div><div class="feedback-container nav-se-container"><div class="nav-se-content"><img class="nav-se-icon" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/assets/icon-feedback.svg"><div class="nav-se-title">Feedback</div><p class="nav-se-text">Help us improve Torrent Scanner, send us comments, bugs, feedback, and suggestions.</p><button id="feedback-button" class="feedback-button nav-se-btn">Send Feedback</button></div></div><div class="settings-container nav-se-container"><div class="nav-se-content"><div class="settings-title">Settings</div></div><div class="s-table"><div class="s-row"><div class="s-title">FAQ<div class="s-arrow"><span class="arrow-down"></span></div></div><div class="s-content faq-content"><p class="faq-text">FAQ: <a href="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/faq.html" target="_blank">Click here</a></p></div></div><div class="s-row"><div class="s-title">Rate the extension<div class="s-arrow"><span class="arrow-down"></span></div></div><div class="s-content"><p class="rate-text">How did you like the extension experience?</p><div class="rating"><span class="rating-star">★</span><span class="rating-star">★</span><span class="rating-star">★</span><span class="rating-star">★</span><span class="rating-star">★</span></div><button class="rating-btn nav-se-btn" disabled="">Submit</button></div></div><div class="s-row"><div class="s-title">About<div class="s-arrow"><span class="arrow-down"></span></div></div><div class="s-content about-content"><div class="about-version">Version 1.3.0 <br><br> What's New</div><div class="about-new"><p></p><ul><li>Experience a complete new User Interface of the extension. It is enhanced and user friendly now.</li><li>Squashed some bugs.</li></ul><p></p></div></div></div><div class="s-row"><div class="s-title">Privacy Policy<div class="s-arrow"><span class="arrow-down"></span></div></div><div class="s-content"><div class="policy-text">Adaware Software (7270356 Canada Inc.) is the operator of the Adaware products suites and related services (the “<b>Company</b>”, ”<b>we</b>” or “<b>us</b>”). We respect your privacy rights and we are committed to protecting them. This privacy policy (“<b>Privacy Policy</b>” or simply “<b>policy</b>”) governs our products, services and websites that link to this Privacy Policy, and describes our practices of processing data from you. By “<b>you</b>”, we refer to either or all of the following: (i) visitors to our websites that links to this Privacy Policy (“<b>Visitor</b>” and “<b>Website</b>”, respectively); (ii) our customers using our software products and Services (“<b>User</b>”); and (c) a business customer, a business partner that has a contractual relationship with us or a prospective customer that is yet to be engaged in a contract with us (“Business Customer”). Unless explicitly mentioned otherwise, the information in this Privacy Policy refers to any and all data subject types (“you” or “your’). <br><br> For the purpose of this policy, the “<b>Service(s)</b>” shall include any software licensed by the Company, including features offered by or within the installed software or additional software scripts available therein (either downloaded from one of our websites, pre-installed on your device, downloaded through a third party website, obtained on a physical medium, or otherwise), or services provided through and/or on top such software, services offered on our websites, communication forums, support services, account operation, updates, enhancements, new features, premium support, extended guarantees, online version and free versions of a software or additional services or features as we ay make available from time to time. <br><br> If you are a California resident, please also see our <a href="https://www.adaware.com/CCPA/" target="_blank">CCPA Notice</a>. <br><br> <a href="https://www.adaware.com/privacy-policy/" target="_blank">Read more</a></div></div></div><div class="s-row" style="display: none;"><div class="s-title">Contact Us<div class="s-arrow"><span class="arrow-down"></span></div></div><div class="s-content"><div class="contact-text">For any payment and order-related support, please contact us at Email: <a href="mailto:support@torrentscanner.zendesk.com">support@torrentscanner.zendesk.com</a> or <a href="mailto:pcsoftwareinfo.com">pcsoftwareinfo.com</a><br><br>Phone: <a href="https://pcsoftwareinfo.com/contact.aspx" target="_blank">Click here</a></div></div></div></div></div></div><div class="nav"><button id="btnSync" class="nav-btn">Sync</button><button id="btnLicense" class="nav-btn">License</button><button id="btnHome" class="nav-btn">Home</button><button id="btnFeedback" class="nav-btn">Feedback</button><button id="btnSettings" class="nav-btn">Settings</button></div></div></template></div></body></html>

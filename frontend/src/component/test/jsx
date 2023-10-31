@@ -1,0 +1,49 @@
+                <div className="text-center w-full h-[15%]">
+                    <h1 className="p-5 pt-8 text-4xl">Our Latest Releases!</h1>
+                </div>
+                <div className=" w-full h-[85%] grid grid-cols-2 gap-8 md:flex md:flex-row justify-between p-10 sm:pt-4 sm:pr-10">
+                    <div className="w-[100%] h-[100%] bg-white rounded-lg sm:h-[95%]">
+                        <div className="w-full h-[50%] rounded-t-lg">
+                            <img className="w-full h-full md:h-full rounded-t-lg" src={setimg} alt="" />
+                        </div>
+                        <div className="text-center w-full h-[50%] p-2">
+                            <p className="text-black hidden text-md pt-4">Capture the Spirit of Spring with Our Radiant Silver Creations</p>
+                            <div className="w-[94%] ml-2 h-[50%] text-black text-base border-2 border-black mt-5 text-center rounded-lg pt-2 sm:mt-10 sm:pt-4">
+                                <a href="/silverSearch" className="text-black hover:text-black">Spring Silver {'>'}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[100%] h-[100%] bg-white rounded-lg sm:h-[95%]">
+                        <div className="w-full h-[50%] bg-yellow-500 rounded-t-lg">
+                            <img className="w-full h-full md:h-full rounded-t-lg" src={setimg2} alt="" />
+                        </div>
+                        <div className="text-center w-full h-[50%] p-2">
+                            <p className="text-black hidden text-md pt-4">Adorn yourself with the treasures of the sea, a gift from natures elegance</p>
+                            <div className="w-[94%] ml-2 h-[50%] text-black text-base border-2 border-black mt-5 text-center rounded-lg pt-2 sm:mt-10 sm:pt-4">
+                                <a href="/pearlSearch" className="text-black hover:text-black ">Perfect Pearl {'>'}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[100%] h-[100%] bg-white rounded-lg sm:h-[95%] sm:-mt-5">
+                        <div className="w-full h-[50%] bg-yellow-500 rounded-t-lg">
+                            <img className="w-full h-full md:h-full rounded-t-lg" src={setimg3} alt="" />
+                        </div>
+                        <div className="text-center w-full h-[50%] p-3">
+                            <p className="text-black hidden text-md pt-4">Indulge in the divine allure of our Divine Diamonds Jewelry Collection</p>
+                            <div className="w-[98%] ml-1 h-[54%] text-black text-base border-2 border-black mt-5 text-center rounded-lg pt-2 sm:mt-10 sm:pt-4">
+                                <a href="/diamondSearch" className="text-black hover:text-black">Divine Diamond {'>'}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[100%] h-[100%] bg-white rounded-lg sm:h-[95%] sm:-mt-5">
+                        <div className="w-full h-[50%] bg-yellow-500 rounded-t-lg">
+                            <img className="w-full h-full md:h-full rounded-t-lg" src={setimg4} alt="" />
+                        </div>
+                        <div className="text-center w-full h-[50%] p-2">
+                            <p className="text-black hidden text-md pt-4">Experience the Soul of Craftsmanship in Our Beaded Beauty Collection</p>
+                            <div className="w-[94%] ml-2 h-[50%] text-black text-base border-2 border-black mt-5 text-center rounded-lg pt-2 sm:mt-10 sm:pt-4">
+                                <a href="/beadSearch" className="text-black hover:text-black ">Beaded Beauty {'>'}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
