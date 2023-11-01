@@ -188,15 +188,17 @@ const ProductSearch = ({ addToCart, Category }) => {
         </div>
         <div className="w-[100%] h-[100%] overflow-auto grid grid-cols-4 justify-between ">
           {sortedProducts.map((product, i) => {
-            return (
-              <Item
-                key={i}
-                id={product._id}
-                Name={product.Name}
-                Price={product.Price}
-                handleClick={() => addToCart(product)}
-              />
-            );
+            if (product.Type === Category || product.Material === Category || Category === "All"){            
+              return (
+                <Item
+                  key={i}
+                  id={product._id}
+                  Name={product.Name}
+                  Price={product.Price}
+                  handleClick={() => addToCart(product)}
+                />
+              );
+            }
           })}
         </div>
       </div>
