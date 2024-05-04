@@ -3,7 +3,7 @@
 
 ## Youtube Video
 
-- [View YouTube Video]([https://youtu.be/C4qZj0oT5Jk](https://youtu.be/pg3xomUrmFo))
+- [View YouTube Video](https://youtu.be/pg3xomUrmFo?si=bb89K4CuTdgKHqPI)
 
 Video Demonstration : [Youtube](https://youtu.be/pg3xomUrmFo)
 
